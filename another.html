@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DOM(Document Object Model)</h1>
+    <!-- <input onchange=" sabiha(this)" type="text" class="text"> -->
+    <!-- <input onchange=" newFunction(this)" type="text" class="text" id="text"> -->
+    <!-- <p onmouseover="sabiha()" id="new-para" style="padding: 20px; background-color: blueviolet; font-weight: 600;"></p> -->
+    <!-- <p onmouseout="another()" onmouseover="sabiha()" id="new-para" style="padding: 20px; background-color: blueviolet; font-weight: 600;"></p> -->
+    <!-- <p onmousedown="mouseDown()" id="new-para" onmouseup="mouseUP()" style="padding: 20px; background-color: blueviolet; font-weight: 600;"></p> -->
+    <!-- <input onkeypress=" keyPress()" type="text" class="text" id="new-input"> -->
+    <!-- <input onkeydown=" keyPressDown()" onkeyup="keyPressUp()" class="text" id="new-input"> -->
+    <!-- <p ondblclick="dblClick()" id="new-para" style="padding: 20px; background-color: blueviolet; font-weight: 600;"></p> -->
+    <!-- <input onblur="Blur()" type="text" class="text" id="onBlur"> -->
+    <input onfocus="Focus()" type="text" class="text" id="focus">
+
+
+    <script>
+        function Focus() {
+            const onFocus = document.getElementById('focus')
+            onFocus.value = 'Think before you speak'
+        }
+
+        // function Blur(){
+        //     const blur = document.getElementById('onBlur')
+        //     blur.value = blur.value.toUpperCase()
+        //     // blur.style.backgroundColor = 'red'
+        // }
+
+        // function dblClick(){
+        // const newPara = document.getElementById('new-para') 
+        // newPara.innerText = 'Actions speak louder than words'
+        // }
+
+        // function keyPressDown() {
+        //     const keyPress = document.getElementById('new-input')
+        //     keyPress.value = 'Think before you speak'
+        // }
+        // function keyPressUp() {
+        //     const keyPress = document.getElementById('new-input')
+        //     keyPress.value = 'You reap what you sow'
+        // }
+
+        // function keyPress() {
+        //     const keyPress = document.getElementById('new-input')
+        //     keyPress.value = 'Look before you leap'
+        //     keyPress.style.color = 'red'
+        // }
+
+
+        // function mouseDown(){
+        // const newPara = document.getElementById('new-para') 
+        // newPara.innerText = 'Actions speak louder than words'
+        // }
+        // function mouseUP(){
+        // const newPara = document.getElementById('new-para') 
+        // newPara.innerText = 'A bad workman blames his tools'
+        // }
+
+        // function sabiha(me){
+        //     console.log(me.value)
+        // }
+        // function newFunction() {
+        //     const input = document.getElementById('text')
+        //     // input.value = input.value.toUpperCase()
+        //     input.value = input.value.toLowerCase()
+        //     console.log(input.value)
+        // }
+        // function sabiha(){
+        // const newPara = document.getElementById('new-para') 
+        // newPara.innerText = 'A saying of Louis Pasteur "Chance Favours Only The Prepared Mind"'
+        // }
+        // function another(){
+        // const newPara = document.getElementById('new-para') 
+        // newPara.innerText = 'Allah helps those who help themselves'
+        // }
+    </script>
+</body>
+</html>
